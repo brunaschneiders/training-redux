@@ -56,7 +56,10 @@ export default () => {
             <b>Nome: </b> {userData.user.name}
             <br />
             <br />
-            <b>Nome: </b> {userData.user.email}
+            <b>Email: </b> {userData.user.email}
+            <br />
+            <br />
+            <b>Token: </b> {userData.token}
           </div>
         </div>
       )}
